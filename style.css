@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+    font-family: 'Red Hat Display';
+    background-color: rgb(214, 225, 255);
+    cursor: pointer;
+}
+
+.container {
+    width: 30%;
+    height: 90vh;
+    background: #FFFFFF;
+    margin: 30px 450px;
+    border-radius: 10px;
+}
+
+.image {
+    width: 100%;
+    height: 30vh;
+    border-radius: 10px 10px 0px 0px;
+    background-image: url(./images/illustration-hero.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+h2 {
+    padding-top: 20px;
+    text-align: center;
+    font-weight: 900;
+}
+
+.desc {
+    padding: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: grey;
+}
+
+.plan {
+    background: whitesmoke;
+    display: flex;
+    margin: 0px 30px;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+
+img {
+    width: 40px;
+    height: 40px;
+}
+
+.amt {
+    padding-left: 20px;
+    line-height: 25px;
+    font-size: 15px;
+    font-weight: 500;
+    color: gray;
+}
+
+span {
+    color: black;
+    font-weight: 700;
+}
+
+a {
+    padding-left: 30px;
+    padding-top: 15px;
+    font-size: 14px;
+}
+
+button {
+    width: 85%;
+    margin: 25px 30px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background: #052CA3;
+    color: #FFFFFF;
+    box-shadow: 0px 5px 6px 5px rgb(214, 225, 255);
+}
+
+button:hover {
+    background: #0096FF;
+}
+
+.cancel {
+    margin-left: 140px;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 375px) {
+   /* I can't seem to get it */
+}
